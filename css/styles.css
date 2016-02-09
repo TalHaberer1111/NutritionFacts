@@ -5,3 +5,59 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+.overLord {
+  border: 1px solid black;
+  font-family: helvetica;
+  width: 395px;
+}
+th:first-child {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Border1 {
+  border-bottom: 15px solid black;
+}
+.Border2 {
+  border-bottom: 8px solid black;
+}
+.First {
+  border-collapse: collapse;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.First tr:nth-child(n+3) {
+  border-bottom: 1px solid black;
+}
+.indent {
+  padding-left: 15px;
+}
+td:nth-child(8n+2) { /*WHATTTTT*/
+  text-align: right;
+}
+p {
+  font-size: 12px;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Second Bottom Table*/
+.Second {
+  font-size: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-collapse: collapse;
+  width: 95%;
+  margin-bottom: 10px;
+}
+.Second th {
+  border-bottom: 1px solid black;
+}
+.Second td:nth-child(n+2){
+  text-align: left;
+  padding-left: 20px;
+}
+.Second th:nth-child(n+2){
+  text-align: left;
+  padding-left: 20px;
+}
