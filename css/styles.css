@@ -8,11 +8,11 @@
 .overLord {
   border: 1px solid black;
   font-family: helvetica;
-  width: 395px;
+  width: 364px;
 }
-th:first-child {
-  font-size: 30px;
-  font-weight: bold;
+.First th:first-child {
+  font-size: 45px;
+  font-weight: bolder;
 }
 .Border1 {
   border-bottom: 15px solid black;
@@ -35,10 +35,13 @@ td:nth-child(8n+2) { /*WHATTTTT*/
   text-align: right;
 }
 p {
-  font-size: 12px;
-  text-align: center;
+  font-size: 13px;
   margin-left: 10px;
   margin-right: 10px;
+}
+.blankSpace {
+  width: 1rem;
+  border-bottom: 0;
 }
 
 /*Second Bottom Table*/
